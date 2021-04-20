@@ -55,7 +55,7 @@ class BST_Sum {
     }
 
     public static void main(String[] args) {
-        int[] keys = {5, 3, 2, 8, 4, 6, 10};
+        int[] arr = {5, 3, 2, 8, 4, 6, 10};
 
         /* Construct the following tree
                    5
@@ -68,7 +68,7 @@ class BST_Sum {
         */
 
         NodeTree root = null;
-        for (int key : keys) {
+        for (int key : arr) {
             root = insert(root, key);
         }
         preorder(root);
