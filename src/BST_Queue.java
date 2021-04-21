@@ -1,5 +1,8 @@
-import java.util.*;
+//BST
+//By using Queue
+//jj904
 
+import java.util.*;
 public class BST_Queue{
     private static class Node {
         int data;
@@ -23,19 +26,15 @@ public class BST_Queue{
 
             Node curr = q.poll();
 
-            // condition to check the
-            // occurence of next level
             if (curr == null) {
                 if (!q.isEmpty()) {
                     q.add(null);
                     System.out.println();
                 }
             } else {
-                // Pushing left child current node
                 if (curr.left != null)
                     q.add(curr.left);
 
-                // Pushing right child current node
                 if (curr.right != null)
                     q.add(curr.right);
 
