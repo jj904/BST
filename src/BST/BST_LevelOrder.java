@@ -1,4 +1,4 @@
-//BST
+package BST;//BST
 //Travel Level Order(2 options)
 //jj904
 import java.util.LinkedList;

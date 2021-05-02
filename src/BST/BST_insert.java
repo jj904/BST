@@ -1,4 +1,4 @@
-//BST
+package BST;//BST
 //insert node
 //jj904
 

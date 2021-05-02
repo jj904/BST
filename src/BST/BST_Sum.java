@@ -1,3 +1,5 @@
+package BST;
+
 //BST_sum of all greater keys
 //jj904
 class NodeTree

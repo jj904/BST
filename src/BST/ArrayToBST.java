@@ -1,3 +1,5 @@
+package BST;
+
 class BSTree{
     class Node {
         int data;
